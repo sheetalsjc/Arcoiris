@@ -16,7 +16,7 @@
     margin: auto;
     min-height: 90%;
     min-width: 90%;
-	background-image: url("images/home.jpg");
+	background-image: url("home.jpg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7));
 	background-repeat: no-repeat; 
          background-size: cover;  /* Scale the background image to fit the section */
