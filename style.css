@@ -16,7 +16,7 @@
     margin: auto;
     min-height: 90%;
     min-width: 90%;
-	background-image: url("images/home.jpg");	
+	background-image: url("home.jpg");	
 	background-repeat: no-repeat; 
     background-size: cover;  /* Scale the background image to fit the section */
 	background-image-style: "max-width:auto; height:auto;"
@@ -30,7 +30,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("images/flowers.jpeg");
+	background-image: url("flowers.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7));
 	background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("images/flowers2.jpeg");
+	background-image: url("flowers2.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("images/flowers2.jpeg");
+	background-image: url("flowers2.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
