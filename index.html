@@ -11,6 +11,19 @@
 </head>
 
 <body onload="myFunction()" style="margin:0;"> <div class="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
     <div id="mySidenav" class="sidenav" align="float:right" >
   <a href="#" id="about">About</a>
   <a href="#" id="blog">Blog</a>
