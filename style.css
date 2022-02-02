@@ -10,7 +10,18 @@
 	box-shadow: wheat; 
 	
 }
-/* loader style*/
+/* first page of the website */
+.home{
+	 
+    margin: auto;
+    min-height: 90%;
+    min-width: 90%;
+	background-image: url("images/home.jpg");	
+	background-repeat: no-repeat; 
+    background-size: cover;  /* Scale the background image to fit the section */
+	background-image-style: "max-width:auto; height:auto;"
+	
+}
 
 /* Second page of the website */
 .header
@@ -19,7 +30,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("flowers.jpeg");
+	background-image: url("images/flowers.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7));
 	background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +42,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("flowers2.jpeg");
+	background-image: url("images/flowers2.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
@@ -43,13 +54,12 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("flowers2.jpeg");
+	background-image: url("images/flowers2.jpeg");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
 
 }
----------------
 
 -------------------------------
 #mySidenav a {
@@ -88,7 +98,7 @@
   background-color: #2196F3
 }
 
-
+  
 ---------------------------------------------------------------------------------
 /*links on 2nd pg for other pages.*/
 .dropbtn {
@@ -170,22 +180,6 @@
    background-image: linear-gradient(rgba(4, 9, 30, 0.7));
    border-radius: 20px;   
 }
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}  
 --------------------------------------------------------
 /* to make link box same for all screens*/
 
