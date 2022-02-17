@@ -8,7 +8,7 @@
 	box-sizing: border-box;
 	padding: 10px; 
 	box-shadow: wheat; 
-	
+	font-color: white;
 }
 /* first page of the website */
 .home{
@@ -42,7 +42,7 @@
 	min-width:  90%;
 	margin: auto;
 	background-position: relative;
-	background-image: url("images/flowers2.jpeg");
+	background-image: url("12.jfif");
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
@@ -58,9 +58,17 @@
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7)); /* when not given image not displayed*/
 	background-repeat: no-repeat;
     background-size: cover;
-
+text-decoration: underline;
+text-decoration-color: lightgoldenrodyellow;
 }
 
+#contact1 {
+  top: 20px;
+  background-color: #F1C40F;
+  text-color: floralwhite;
+
+
+}
 -------------------------------
 #mySidenav a {
   position: absolute;
@@ -200,10 +208,50 @@
  }  
 ---------------------------------------------
 
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
 
 
 
-
+--------------------------------------------------
 
 ---------------------------------------------not included list -------------------------
  /* navigation on the second page of the website */
