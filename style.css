@@ -10,8 +10,8 @@
 	box-shadow: wheat; 
 	font-color: white;
 }
-scrollbar beautification
-/* width */
+/*scrollbar beautification
+ width */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -24,7 +24,7 @@ scrollbar beautification
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: darkgrey; 
+  background: red; 
   border-radius: 10px;
 }
 
