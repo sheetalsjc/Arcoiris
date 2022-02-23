@@ -182,8 +182,7 @@ text-decoration-color: lightgoldenrodyellow;
 //* scroll box for texts using overflow on 3rd page*/
 
 
-.div1{   /*the first container holder on the third page*/
-
+.dimin{   /*the first container holder on the third page*/
   width: 100%;
   height: 100%;
    overflow-x: hidden;
