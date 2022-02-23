@@ -200,10 +200,10 @@ text-decoration-color: lightgoldenrodyellow;
     height: 100%;
 	overflow-x: hidden;
    overflow-y: scroll;     /* for scroll bar*/
-   padding-left: 50px;
-   padding-right: 50px;  /* padding for proper margin within containers */
-   padding-top: 50px;
-   padding-bottom: 50px;
+   padding-left: 30px;
+   padding-right: 30px;  /* padding for proper margin within containers */
+   padding-top: 20px;
+   padding-bottom: 30px;
    background-color:  #f4e1d2; 
    border-radius: 50px;   
 }
