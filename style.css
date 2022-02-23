@@ -19,14 +19,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  box-shadow: inset 0 0 5px lightblue; 
+  border-radius: 15px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: darkblue; 
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 /* Handle on hover */
