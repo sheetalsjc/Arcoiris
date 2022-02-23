@@ -202,7 +202,7 @@ text-decoration-color: lightgoldenrodyellow;
    overflow-y: scroll;     /* for scroll bar*/
    padding-left: 50px;
    padding-right: 50px;  /* padding for proper margin within containers */
-   padding-top: 150px;
+   padding-top: 50px;
    padding-bottom: 50px;
    background-color:  #f4e1d2; 
    border-radius: 50px;   
