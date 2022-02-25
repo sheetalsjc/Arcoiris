@@ -66,7 +66,7 @@
        <div class="division">
         <img src="flag.jfif" width="40%" >
                     <div   id="contact1" >
-REPUBLIC DAY CELEBRATIONS - Click on the images for a enlarged view below
+REPUBLIC DAY CELEBRATIONS - Click on the images for an enlarged view below
   </div>
 
 <!-- The four columns -->
@@ -116,19 +116,36 @@ function myFunction(imgs) {
         <img src="Art gallery.bmp" width="30%" align="center"><br><br>
            <div   id="contact1">
                   <U>ART WORK BY YOUNG JOSEPHITES</U>
+                Click on the images for an enlarged view Below
+  </div>
            </div>
      <div class="row" style="width:100%">
      <div class="column" style="width:100%" border="2px">
-                <img style="width:30%"  border="1px" src="1ST.bmp";>
-                <img style="width:30%"  border="1px" src="2nd.bmp";>
-                <img style="width:30%"  border="1px" src="3rd.bmp";>
-                <img style="width:30%" border="1px" src="4th.bmp";>
-                <img style="width:30%"  border="1px" src="5th.bmp";>
-                <img style="width:30%"  border="1px" src="6th.bmp";>
-                <img style="width:30%"  border="1px" src="2nd.bmp";>
-                <img style="width:30%" border="1px" src="2nd.bmp";>
+                <img src="1ST.bmp" style="width:30%"   onclick="myFunction(this);";>
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="3rd.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="4th.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="5th.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="6th.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
                     </div>
                     </div>
+           <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:80%">
+  
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
                     </div>
      </div>
                  
