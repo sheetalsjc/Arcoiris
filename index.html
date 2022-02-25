@@ -107,46 +107,42 @@ function myFunction(imgs) {
                
     </div>             
   </div>                 
- </section><br><br>
+ </section><br>
 
 <section id="5">
    <div class="header1" style="text-align:center" style="width:100% height:100%"> 
        <div class="division">
-       
-        <img src="Art gallery.bmp" width="30%" align="center"><br><br>
+               <img src="Art gallery.bmp" width="30%" align="center">
            <div   id="contact1">
-                  <U>ART WORK BY YOUNG JOSEPHITES</U>
-                Click on the images for an enlarged view Below
-  </div>
+                  ART WORK BY YOUNG JOSEPHITES
+                   Click on the images for an enlarged view Below
+           </div>
           
      <div class="row" style="width:100%">
      <div class="column" style="width:100%" border="2px">
-                <img src="1ST.bmp" style="width:30%"   onclick="myFunction(this);";>
-                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="3rd.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="4th.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="5th.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="6th.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
-                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);";>
-                    </div>
-                    </div>
+                <img src="1ST.bmp" style="width:30%"   onclick="myFunction(this);">
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="3rd.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="4th.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="5th.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="6th.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);">
+                <img  src="2nd.bmp" style="width:30%" onclick="myFunction(this);">
+        </div>
+        </div>
            <div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:80%">
-  
-</div>
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:80%">
+        </div>
 
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
-                    </div>
+            <script>
+            function myFunction(imgs) {
+              var expandImg = document.getElementById("expandedImg");
+              expandImg.src = imgs.src;
+              expandImg.parentElement.style.display = "block";
+            }
+            </script>
+       </div>
      </div>
                  
                     
