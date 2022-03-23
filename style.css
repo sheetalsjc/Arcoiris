@@ -84,7 +84,7 @@ function onDOMLoaded(e){
  anim.addEventListener('complete', function(){});
 }
 
-ScrubBodymovinTimeline(anim)
+ScrubBodymovinTimeline(anim);
 }
 --------------------
 /* Create two equal columns that floats next to each other */
