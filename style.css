@@ -34,84 +34,28 @@
   background: #b30000; 
 }
 ------------------------------------------------
-<style>  
-      :root {  
-           --yellow: #feb60a;  
-           --red: #ff0062;  
-           --blue: #00dbf9;  
-           --violet: #da00f7;  
-      }  
-​  
-       body {  
-           margin: 0;  
-           display: flex;  
-           justify-content: center;  
-           align-items: center;  
-           height: 100vh;  
-           background-color: #1a1940;  
-           background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 153, 212, 0) calc(15% + 100px), rgba(0, 99, 138, 0) calc(85% + 100px), rgba(0, 0, 0, 0.15) 100%);  
-      }  
-​  
-       div.container {  
-           display: flex;  
-           justify-content: center;  
-           align-items: center;  
-      }  
-​  
-       div>div {  
-           width: 3vw;  
-           height: 3vw;  
-           border-radius: 100%;  
-           margin: 2vw;  
-           background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);  
-           animation: bounce 1.5s 0.5s linear infinite;  
-      }  
-​  
-       .yellow {  
-           background-color: var(--yellow);  
-      }  
-​  
-       .red {  
-           background-color: var(--red);  
-           animation-delay: 0.1s;  
-      }  
-​  
-       .blue {  
-           background-color: var(--blue);  
-           animation-delay: 0.2s;  
-      }  
-​  
-       .violet {  
-           background-color: var(--violet);  
-           animation-delay: 0.3s;  
-      }  
-​  
-       @keyframes bounce {  
-​  
-           0%,  
-           50%,  
-           100% {  
-               transform: scale(1);  
-               filter: blur(0px);  
-          }  
-​  
-           25% {  
-               transform: scale(0.6);  
-               filter: blur(3px);  
-          }  
-​  
-           75% {  
-               filter: blur(3px);  
-               transform: scale(1.4);  
-          }  
-      }  
-   </style>  
-   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
-   <script>  
-       $(window).on('load', function () {  
-           $(".container").fadeOut("slow");  
-      });  
-   </script>  
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 ------------------------------------------------------------------
 /* Create two equal columns that floats next to each other */
 .column {
